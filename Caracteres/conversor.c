@@ -11,3 +11,8 @@ char upper_to_lower(char c){
  if (c>= 'A' && c<='Z') c = c + ('a' - 'A');
  return c;
 }
+
+int upper(char c) {
+if ((c >= 'A') && (c <= 'Z')) return 1;
+else return 0;
+}
